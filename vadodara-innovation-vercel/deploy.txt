@@ -1,0 +1,5 @@
+1. Create/import the project in Vercel.
+2. Add DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASSWORD in Vercel Project Settings > Environment Variables.
+3. Import database/schema.sql into your external MySQL/MariaDB server.
+4. Deploy. The package uses Dockerfile for PHP + Apache + MySQLi.
+5. Open / for the two form links.
