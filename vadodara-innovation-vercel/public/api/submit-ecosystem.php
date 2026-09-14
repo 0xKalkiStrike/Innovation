@@ -29,11 +29,12 @@ try {
 
     $sql="INSERT INTO ecosystem_registrations
     (full_name,mobile,email,registering_as,city,vidhan_sabha,ward_number,area_locality,google_maps_location,organisation_name,designation_role,website_social_link,expertise,support_you_can_provide,support_description,innovation_startup_name,problem_being_addressed,innovation_solution,current_stage,ipr_status,project_demo_link,investment_type,startup_stage_interest,preferred_sector,investment_funding_range,mentor_expertise,mentor_support_offered,mentor_availability,institution_type,facilities_capabilities,number_of_startups_projects_iprs,institution_ecosystem_support,support_type,support_details,individual_contribution,individual_contribution_details,consent,additional_information)
-    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
     $stmt=$conn->prepare($sql);
     $stmt->bind_param(
     "sssssssssssssssssssssssssssssssssssssi",
+
     $full_name,$mobile,$email,$registering_as,$city,$vidhan_sabha,$ward_number,$area_locality,$google_maps_location,$organisation_name,$designation_role,$website_social_link,$expertise,$support_you_can_provide,$support_description,$innovation_startup_name,$problem_being_addressed,$innovation_solution,$current_stage,$ipr_status,$project_demo_link,$investment_type,$startup_stage_interest,$preferred_sector,$investment_funding_range,$mentor_expertise,$mentor_support_offered,$mentor_availability,$institution_type,$facilities_capabilities,$number_of_startups_projects_iprs,$institution_ecosystem_support,$support_type,$support_details,$individual_contribution,$individual_contribution_details,$consent,$additional_information
     );
     $stmt->execute();
