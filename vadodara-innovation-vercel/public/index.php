@@ -15,5 +15,7 @@
 <h2 class="fw-bold">Choose a Form</h2>
 <a class="home-link" href="/institution-form.php"><strong>Education Institution Form</strong><br><span class="text-muted">Institution participation, activities, shortlisted entries, government-supported projects, IPR/startup data.</span></a>
 <a class="home-link" href="/ecosystem-form.php"><strong>Innovation & Support Ecosystem Registration</strong><br><span class="text-muted">Innovators, startups, mentors, investors, institutions, industry, CSR, NGOs and supporters.</span></a>
+<a class="home-link mt-3 border-primary" style="border-left: 4px solid #3b82f6;" href="/qa-report.php"><strong>System QA & Audit Status Report</strong><br><span class="text-muted">View full system verification status, technical remediation timeline, and live proof of form submissions.</span></a>
+
 </div></main>
 </body></html>
