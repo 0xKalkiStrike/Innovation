@@ -578,7 +578,7 @@
 
 
 <form
-    action="/api/submit-ecosystem.php"
+    action="submit_ecosystem.php"
     method="POST"
     id="ecosystemForm"
     novalidate>
@@ -2355,6 +2355,8 @@ function getCurrentLocation() {
         status.innerHTML = `<span class="text-danger"><i class="bi bi-exclamation-circle-fill"></i> ${message}</span>`;
     }, { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 });
 }
+
+<script>
 
 document.addEventListener(
     "DOMContentLoaded",
