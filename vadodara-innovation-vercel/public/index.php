@@ -12,8 +12,9 @@
 <p class="mt-3 mb-0">Online registration portal</p>
 </div></header>
 <main class="wrap"><div class="card-section home-card p-4 p-md-5">
-<h2 class="fw-bold">Choose a Form</h2>
+<h2 class="fw-bold">Choose a Form / Access Dashboard</h2>
 <a class="home-link" href="/institution-form.php"><strong>Education Institution Form</strong><br><span class="text-muted">Institution participation, activities, shortlisted entries, government-supported projects, IPR/startup data.</span></a>
 <a class="home-link" href="/ecosystem-form.php"><strong>Innovation & Support Ecosystem Registration</strong><br><span class="text-muted">Innovators, startups, mentors, investors, institutions, industry, CSR, NGOs and supporters.</span></a>
+<a class="home-link border-primary bg-light" href="/admin.php"><strong>📊 Admin Data Dashboard</strong><br><span class="text-muted">View all submitted registrations, summary stats, search records, and export to CSV.</span></a>
 </div></main>
 </body></html>
